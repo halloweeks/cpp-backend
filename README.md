@@ -12,7 +12,7 @@
 <p>Create a table<p>
   
 ``` 
-CREATE TABLE `users` (
+CREATE TABLE server.users (
   `user_id` bigint(255) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL,
   `username` varchar(14) NOT NULL,
   `email` varchar(50) NOT NULL,
@@ -22,7 +22,7 @@ CREATE TABLE `users` (
 <p>Insert a user data</p>
 
 ```
-INSERT INTO `server.users` (`user_id`, `username`, `email`, `password`) VALUES
+INSERT INTO server.users (`user_id`, `username`, `email`, `password`) VALUES
 (1, 'example', 'example@gmail.com', '1234567890');
 ```
 
