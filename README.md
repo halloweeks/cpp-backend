@@ -13,4 +13,4 @@
 <hr>
 <h2> Improvement for</h2>
 <p>If you are professional developer to improve this source code and send me i will update here</p>
-<p>Contact Email: <a href="halloweeks@gmail.com">halloweeks@gmail.com</a></p>
+<p>Contact Email: halloweeks@gmail.com</p>
