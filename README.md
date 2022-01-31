@@ -4,6 +4,27 @@
 <b>(2)</b> MySQL database</br>
 <b>(3)</b> Data format JSON</br>
 
+<h2>MySQL setup</h2>
+<p>Create a new database</p>
+
+```CREATE DATABASE server ```
+
+<p>Create a table<p>
+  
+``` 
+
+CREATE TABLE `users` (
+  `user_id` bigint(255) UNSIGNED NOT NULL,
+  `username` varchar(14) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `password` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
+<p>Insert a user data</p>
+
+
+
+
 <h2> Compilation process </h2>
 <p>You first make sure you have installed g++</p>
 
