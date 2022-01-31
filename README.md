@@ -7,21 +7,24 @@
 <h2>MySQL setup</h2>
 <p>Create a new database</p>
 
-```CREATE DATABASE server ```
+```CREATE DATABASE server;```
 
 <p>Create a table<p>
   
 ``` 
-
 CREATE TABLE `users` (
-  `user_id` bigint(255) UNSIGNED NOT NULL,
+  `user_id` bigint(255) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL,
   `username` varchar(14) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(250) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+);
 ```
 <p>Insert a user data</p>
 
+```
+INSERT INTO `server.users` (`user_id`, `username`, `email`, `password`) VALUES
+(1, 'example', 'example@gmail.com', '1234567890');
+```
 
 
 
