@@ -10,7 +10,6 @@
 <p>g++ client.cpp -o client.exe</p>
 ./server<br>
 ./client<br>
-<hr>
 <h2> Improvement for</h2>
 <p>If you are professional developer to improve this source code and send me i will update here</p>
 <p>Contact Email: halloweeks@gmail.com</p>
