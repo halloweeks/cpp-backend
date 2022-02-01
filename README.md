@@ -5,13 +5,13 @@
 <b>(3)</b> Data format JSON</br>
 
 <h2>MySQL setup</h2>
-<p>Create a new database</p>
+<p><b>Create a new database</b></p>
 
 ```
 CREATE DATABASE server;
 ```
 
-<p>Create a table<p>
+<p><b>Create a table</b><p>
   
 ``` 
 CREATE TABLE server.users (
@@ -21,7 +21,7 @@ CREATE TABLE server.users (
   `password` varchar(250) NOT NULL
 );
 ```
-<p>Insert a user data</p>
+<p><b>Insert a user data</b></p>
 
 ```
 INSERT INTO server.users (`user_id`, `username`, `email`, `password`) VALUES
@@ -31,16 +31,23 @@ INSERT INTO server.users (`user_id`, `username`, `email`, `password`) VALUES
 
 
 <h2> Compilation process </h2>
-<p>You first make sure you have installed g++</p>
+<p><b>You first make sure you have installed g++</b></p>
 
 ```
 g++ server.cpp -o server.exe -lpthread -L/usr/include/mysql -lmysqlclient -I/usr/include/mysql
 ```
 
-```g++ client.cpp -o client.exe```
+```
+g++ client.cpp -o client.exe
+```
+```
+./server
+```
+```
+./client
+```
 
-./server<br>
-./client<br>
+<br>
 <h2> Improvement for</h2>
 <p>If you are professional developer to improve this source code and send me i will update here</p>
 <p>Contact Email: halloweeks@gmail.com</p>
