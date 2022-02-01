@@ -7,7 +7,9 @@
 <h2>MySQL setup</h2>
 <p>Create a new database</p>
 
-```CREATE DATABASE server;```
+```
+CREATE DATABASE server;
+```
 
 <p>Create a table<p>
   
