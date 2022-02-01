@@ -31,7 +31,9 @@ INSERT INTO server.users (`user_id`, `username`, `email`, `password`) VALUES
 <h2> Compilation process </h2>
 <p>You first make sure you have installed g++</p>
 
-```g++ server.cpp -o server.exe -lpthread -L/usr/include/mysql -lmysqlclient -I/usr/include/mysql```
+```
+g++ server.cpp -o server.exe -lpthread -L/usr/include/mysql -lmysqlclient -I/usr/include/mysql
+```
 
 ```g++ client.cpp -o client.exe```
 
