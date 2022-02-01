@@ -4,6 +4,13 @@
 <b>(2)</b> MySQL database</br>
 <b>(3)</b> Data format JSON</br>
 
+<h2>Example</h2>
+
+![alt text](https://raw.githubusercontent.com/halloweeks/cpp-backend/main/images/Screenshot_20220201-113658.png)
+![alt text](https://raw.githubusercontent.com/halloweeks/cpp-backend/main/images/Screenshot_20220201-113650.png)
+![alt text](https://github.com/halloweeks/cpp-backend/blob/main/images/Screenshot_20220201-113727.png)
+
+
 <h2>MySQL setup</h2>
 <p><b>Create a new database</b></p>
 
