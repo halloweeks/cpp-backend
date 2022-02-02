@@ -38,7 +38,10 @@ INSERT INTO server.users (`user_id`, `username`, `email`, `password`) VALUES
 
 
 <h2> Compilation process </h2>
-<p><b>You first make sure you have installed g++</b></p>
+<p><b>You first make sure you have installed</b></p>
+<p>(1) g++</p>
+<p>(2) nlohmann/json.hpp header file</p>
+<p>(3) mariadb/mysql.h header file</p>
 
 ```
 g++ server.cpp -o server.exe -lpthread -L/usr/include/mysql -lmysqlclient -I/usr/include/mysql
