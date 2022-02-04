@@ -48,15 +48,15 @@ chmod +x build.sh && ./build.sh
 
 <h2>Server</h2>
 
-![alt text](https://raw.githubusercontent.com/halloweeks/cpp-backend/main/images/Screenshot_20220201-113658.png)
+![alt text](https://raw.githubusercontent.com/halloweeks/cpp-backend/main/images/Screenshot_20220204-110257.png)
 
 <h2>Client</h2>
 
-![alt text](https://raw.githubusercontent.com/halloweeks/cpp-backend/main/images/Screenshot_20220201-113650.png)
+![alt text](https://github.com/halloweeks/cpp-backend/blob/main/images/Screenshot_20220204-110238.png?raw=true)
 
 <h2>MySQL</h2>
 
-![alt text](https://github.com/halloweeks/cpp-backend/blob/main/images/Screenshot_20220201-113727.png)
+![alt text](https://github.com/halloweeks/cpp-backend/blob/main/images/Screenshot_20220204-110453.png?raw=true)
 
 
 <br>
