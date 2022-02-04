@@ -4,13 +4,6 @@
 <b>(2)</b> MySQL database</br>
 <b>(3)</b> Data format JSON</br>
 
-<h2>Example</h2>
-
-![alt text](https://raw.githubusercontent.com/halloweeks/cpp-backend/main/images/Screenshot_20220201-113658.png)
-![alt text](https://raw.githubusercontent.com/halloweeks/cpp-backend/main/images/Screenshot_20220201-113650.png)
-![alt text](https://github.com/halloweeks/cpp-backend/blob/main/images/Screenshot_20220201-113727.png)
-
-
 <h2>MySQL setup</h2>
 <p><b>Create a new database</b></p>
 
@@ -38,24 +31,33 @@ INSERT INTO server.users (`user_id`, `username`, `email`, `password`) VALUES
 
 
 <h2> Compilation process </h2>
-<p><b>You first make sure you have installed</b></p>
-<p>(1) g++</p>
-<p>(2) nlohmann/json.hpp header file</p>
-<p>(3) mariadb/mysql.h header file</p>
+<p><b>You first make sure you have installed cmake > 3.10</b></p>
 
 ```
-g++ server.cpp -o server.exe -lpthread -L/usr/include/mysql -lmysqlclient -I/usr/include/mysql
+chmod +x build.sh && ./build.sh
 ```
 
-```
-g++ client.cpp -o client.exe
-```
 ```
 ./server
 ```
+
 ```
 ./client
 ```
+
+
+<h2>Server</h2>
+
+![alt text](https://raw.githubusercontent.com/halloweeks/cpp-backend/main/images/Screenshot_20220201-113658.png)
+
+<h2>Client</h2>
+
+![alt text](https://raw.githubusercontent.com/halloweeks/cpp-backend/main/images/Screenshot_20220201-113650.png)
+
+<h2>MySQL</h2>
+
+![alt text](https://github.com/halloweeks/cpp-backend/blob/main/images/Screenshot_20220201-113727.png)
+
 
 <br>
 <h2> Improvement for</h2>
@@ -64,3 +66,4 @@ g++ client.cpp -o client.exe
 
 <h2>Feedback and report bugs</h2>
 <a href="https://github.com/halloweeks/cpp-backend/discussions/">Discussion here</a>
+
