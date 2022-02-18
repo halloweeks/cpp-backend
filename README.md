@@ -1,4 +1,4 @@
-<h2> C++ Backend Linux and Unix</h2>
+<h2> C++ Backend Linux and Ubuntu</h2>
 
 <b>(1)</b> TCP Communication</br>
 <b>(2)</b> MySQL database</br>
